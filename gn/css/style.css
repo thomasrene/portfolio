@@ -27,17 +27,17 @@ body {
 
 .h1, h1 {
 
-	font-size: 3.6em !important;
+	font-size:58px !important;
 }
 
 .tfv {
-	font-size: 2.6em !important;
+	font-size:64px !important;
 	text-align: center;
 }
 
 .hero-bg {
     height: 70vh !important;
-	padding-top: 30vh !important;
+	padding-top: 100px !important;
 	padding-left: 15px !important;
 }
 
@@ -273,7 +273,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 	margin: 0 auto;
 	text-align: left;
 	height: 100vh;
-	padding-top: 38.5vh;
+	padding-top:230px;
 }
 /*** THE END HERO HEADER ***/
 
@@ -318,7 +318,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
 /*** FOOTER LINKS ***/
 .ftr-lnk {
-	font-size: 48px;
+	font-size: 44px;
 
 text-decoration: none;
 	letter-spacing: 0;
