@@ -38,7 +38,7 @@ body {
 .hero-bg {
     height: 70vh !important;
 	padding-top: 100px !important;
-	padding-left: 15px !important;
+	padding-left: 0 !important;
 }
 
 .h2, h2 {
