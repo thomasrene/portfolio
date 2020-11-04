@@ -82,6 +82,7 @@ body {
 }
 
 .lg-col-bg {
+  padding-top: 200px;
 	margin-top: 3em !important;
 	margin-bottom: 3em !important;
 }
@@ -667,6 +668,7 @@ text-decoration: none;
 }
 
 .fadeIn {
+  opacity:0;
    -webkit-animation-name: fadeIn;
    animation-name: fadeIn;
    background: #fff;
@@ -712,6 +714,8 @@ text-decoration: none;
 
 @keyframes animatetop {
 	from {top:-300px;opacity:0} to {top:0;opacity:1}
+
+  }
 }
 
 .fade-anime-zoom {
@@ -731,7 +735,7 @@ text-decoration: none;
 }
 
 .fade-anime-opacity {
-	animation: opac 0.7s;
+	animation: opac 0.9s;
 }
 
 @keyframes opac {
