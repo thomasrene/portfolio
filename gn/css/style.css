@@ -16,13 +16,27 @@ body {
   background-color: #ECF7FE;
   color: #0496FF;
   border: none;
-  border-radius: 12px;
+  border-radius: 11px;
   box-shadow: none;
   display: inline-block;
   font-size: 16px;
   font-weight: 500;
   padding: 5px 20px;
   width: auto;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+   transition: all .5s ease;
+
+}
+
+.resume-cta:hover {
+  cursor: pointer;
+  opacity: .7;
+  -webkit-transform: scale(0.96);
+  -ms-transform: scale(0.96);
+  transform: scale(0.96);
 
 
 }
