@@ -23,17 +23,18 @@ body {
   font-weight: 500;
   padding: 5px 20px;
   width: auto;
-  -webkit-transition: all .5s ease;
-  -moz-transition: all .5s ease;
-  -ms-transition: all .5s ease;
-  -o-transition: all .5s ease;
-   transition: all .5s ease;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  -o-transition: all .2s ease;
+   transition: all .2s ease;
 
 }
 
 .resume-cta:hover {
   cursor: pointer;
-  
+  color: #0496FF;
+
   -webkit-transform: scale(0.96);
   -ms-transform: scale(0.96);
   transform: scale(0.96);
