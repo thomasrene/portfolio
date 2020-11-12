@@ -84,8 +84,8 @@ PRELOADER
   margin: 0px auto;
   background-color: #333;
   border-radius: 100%;
-  -webkit-animation: scaleout 1.0s infinite ease-in-out;
-  animation: scaleout 1.0s infinite ease-in-out;
+  -webkit-animation: scaleout .5s infinite ease-in-out;
+  animation: scaleout .5s infinite ease-in-out;
 }
 
 @-webkit-keyframes scaleout {
