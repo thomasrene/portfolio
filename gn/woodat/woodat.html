@@ -55,7 +55,7 @@
   <!--Header-->
   <header id="fullscreen">
 
-      <div class="logo" id="full"><a class="ajax-link" href="https://thomas.desi/gn/">Thomas René</a></div>
+       <div class="logo" id="full"><a class="ajax-link"  onclick="goBack()"</a>← Back </div>
 
         <div class="menu-index" href="mailto:thmsrn@icloud.com">
         <i class="fa fa-envelope"></i>
@@ -153,6 +153,12 @@
     // Animation complete.
     });
   </script>
+	
+	<script>
+	function goBack() {
+  window.history.back();
+	</script>
+
 
 
 </body>
