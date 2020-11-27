@@ -1,0 +1,11 @@
+# netlify.toml
+[build]
+// only build homepage
+command = "webpack" 
+
+[[redirects]]
+from = "/gn/*"
+to = "https://zealous-beaver-9249c5.netlify.app/:splat"
+status = 200
+force = true
+
